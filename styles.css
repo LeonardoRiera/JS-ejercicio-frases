@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'lato', sans-serif;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+	background: url(img/biblioteca.jpg) no-repeat center center/cover;
+}
+
+
+.contenido-centrado {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+/* trabajamos el contenedor */
+
+.contenedor {
+	width: 80vw;
+	max-width: 600px;
+	min-height: 500px;
+	padding: 20px;
+	background-color: white;
+	border: 5px solid black;
+	border-radius: 30px;
+}
+
+
+.contenedor-interno {
+	width: 80%;
+}
+
+
+/* trabajamos ahora con el contenido */
+
+#titulo {
+	width: 100%;
+	font-weight: bold;
+	text-align: center;
+	font-family: "Kalam", cursive; 
+}
+
+
+#cita {
+	font-size: 32px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 10px;
+}
+
+#autor {
+	width: 100%;
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	font-family: "Kalam", cursive;
+
+}
+
+#boton-cambiar-cita {
+	width: 180px;
+	height: 50px;
+	font-size: 20px;
+}
+
+
+
+
+
